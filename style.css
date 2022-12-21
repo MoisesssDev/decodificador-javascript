@@ -118,7 +118,7 @@ section .texto-digitado {
     width: 25rem;
     background-color: #E9ECF8;
     margin-right: 2rem;
-    margin-left: 5rem;
+    margin-left: 10rem;
     border-radius: 35px;
     justify-content: center;
     text-align: center;
@@ -180,6 +180,12 @@ section .texto-digitado {
 .info a em {
     font-size: 1.3rem;
     justify-content: center;
+}
+
+@media (max-width: 1500px){
+    .texto-saida {
+        margin-left: 5rem;
+    }
 }
 
 @media (max-width: 1400px) {
