@@ -149,7 +149,7 @@ section .texto-digitado {
 .info {
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 10rem;
     margin-bottom: 8rem;
 }
 
@@ -211,7 +211,7 @@ section .texto-digitado {
 
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     *{
         font-size: 14px;
     }
