@@ -104,6 +104,11 @@ section .texto-digitado {
     color: var(--darkblue);
 }
 
+#botao-copiar:hover {
+    background-color: var(--light-blue-300);
+    color: var(--light-blue-100);
+}
+
 .textos {
     display: flex;
     background-color: var(--gray-500);
