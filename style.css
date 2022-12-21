@@ -185,7 +185,6 @@ section .texto-digitado {
 @media (max-width: 1400px) {
     *{
         font-size: 12px;
-        font-weight: 600;
     }
 
     header nav {
@@ -207,12 +206,18 @@ section .texto-digitado {
 
 
 
-    .texto-saida {
+    .texto-saida { 
         width: 40rem;
-        margin-left: 2rem;
+        margin-left: 15rem;
         margin-right: 2rem;
     }
 
+}
+
+@media (max-width: 1100px) {
+    .texto-saida {
+        margin-left: 5rem;
+    }
 }
 
 @media (max-width: 900px) {
