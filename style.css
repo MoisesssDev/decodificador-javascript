@@ -182,9 +182,10 @@ section .texto-digitado {
     justify-content: center;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     *{
         font-size: 12px;
+        font-weight: 600;
     }
 
     header nav {
@@ -204,9 +205,12 @@ section .texto-digitado {
         margin-top: 40rem;
     }
 
+
+
     .texto-saida {
         width: 40rem;
-        margin-left: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
 }
