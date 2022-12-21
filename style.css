@@ -299,13 +299,14 @@ section .texto-digitado {
     }
     
     .texto-saida {
+        margin-left: 3.25rem;
         margin-top: 5rem;
         width: 28rem;
     }
 
     .botao {
         width: 30rem;
-        margin-left: 3.25rem;
+        margin-left: 2.25rem;
         margin-top: 25rem;
     }
 }
@@ -327,6 +328,7 @@ section .texto-digitado {
     }
 
     .texto-saida {
+        margin-left: 3.25rem;
         margin-top: 5rem;
         width: 28rem;
     }
