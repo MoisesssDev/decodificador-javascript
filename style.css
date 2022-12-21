@@ -1,0 +1,340 @@
+:root {
+    --darkblue: #bb9114;
+    --darkblue-500:#9e7e20;
+    --light-blue-100: #493806;
+    --light-blue-200: #f7f1e0;
+    --light-blue-300: #f7e7ba;
+    --background-principal-color: #daf0e8;
+    --gray-500: #343A40;
+    --gray-400: #959799;
+    --font:'Unbounded', cursive;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-principal-color);
+    font-family: var(--font);
+    
+}
+
+header {
+    width: 67.29%;
+}
+
+header nav {
+    width: 67.29%;
+    margin-bottom: 5rem;
+    margin-top: 40px;
+    margin-left: 5.25rem;
+}
+
+section .texto-digitado {
+    margin-left: 15rem;
+
+
+}
+
+.texto-digitado input {
+    height: 6rem;
+    width: 32rem;
+    font-size: 1.5rem;
+    color: var(--darkblue);
+    border: 0;
+    border-bottom: 2px solid var(--gray-400);
+    outline: 0;
+    transition: 0.5s ease-in-out;
+    background-color: var(--gray-500);
+}
+
+::placeholder{
+    font-family: var(--font);
+    color: var(--darkblue);
+    font-size: 2rem;
+}
+
+.botao {
+    width: 42.5rem;
+    margin-left: 15rem;
+    margin-top: 28rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.botao button {
+    padding: 24px;
+    width: 20.5rem;
+    border-radius: 24px;
+    border-color: var(--darkblue);
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.botao-criptografia button {
+    background-color: var(--darkblue);
+    color: var(--background-principal-color);
+}
+
+.botao-criptografia button:hover {
+    background-color: var(--darkblue-500);
+    color: var(--light-blue-200);
+}
+
+.botao-descriptografia button {
+    color: var(--darkblue);
+    margin-left: 1.5rem;
+}
+
+.botao-descriptografia button:hover {
+    background-color: var(--light-blue-300);
+    color: var(--light-blue-100);
+}
+
+#botao-copiar {
+    padding: 24px;
+    width: 20.5rem;
+    border-radius: 24px;
+    border-color: var(--darkblue);
+    font-family: var(--font);
+    font-weight: 600;
+    color: var(--darkblue);
+}
+
+.textos {
+    display: flex;
+    background-color: var(--gray-500);
+}
+
+.texto-saida {
+    width: 25rem;
+    background-color: #E9ECF8;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    border-radius: 35px;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px var(--gray-400);
+}
+
+.texto-saida img {
+    margin-bottom: 2rem;
+}
+
+.texto-saida h2 {
+    margin-bottom: 1rem;
+}
+
+#output-texto{
+    font-size: 1.2rem;
+    color: var(--gray-500);
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 81%;
+    outline: none;
+    background-color: #E9ECF8;
+    border: none;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-bottom: 8rem;
+}
+
+.info a {
+    color: var(--darkblue-500);
+    padding: 2rem;
+}
+
+.info a:hover {
+    font-weight: 700;
+}
+
+.info img {
+    width: 50px;
+}
+
+.github-info {
+    display: flex;
+    margin-bottom: 1.2rem;
+    justify-content: center;
+}
+
+.linkedin-info { 
+    display: flex;
+    justify-content: center;
+}
+
+.info a em {
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+@media (max-width: 1300px) {
+    *{
+        font-size: 12px;
+    }
+
+    header nav {
+        margin-left: 3.25rem;
+    }
+
+    section .texto-digitado {
+        margin-left: 3.25rem;
+    }
+
+    .texto-digitado input {
+        width: 30rem;
+    }
+
+    .botao {
+        margin-left: 3.25rem;
+        margin-top: 40rem;
+    }
+
+    .texto-saida {
+        width: 40rem;
+        margin-left: 3rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+    *{
+        font-size: 14px;
+    }
+    .textos {
+        flex-direction: column;
+    }
+
+    .texto-digitado input {
+        width: 45rem;
+    }
+
+    .botao {
+        width: 38rem;
+        margin-left: 3.25rem;
+        margin-top: 25rem;
+    }
+
+    .texto-saida {
+        margin-top: 5rem;
+        width: 45rem;
+        height: 100%;
+        margin-bottom: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    #botao-copiar {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .texto-digitado input {
+        width: 35rem;
+    }
+
+    .botao button {
+        width: 18rem;
+    }
+
+    .texto-saida {
+        margin-top: 5rem;
+        width: 36rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    *{
+        font-size: 12px;
+    }
+
+    .texto-digitado input {
+        width: 30rem;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+
+    .texto-digitado input {
+        width: 30rem;
+    }
+
+    .botao button {
+        width: 15rem;
+    }
+    
+    .texto-saida {
+        margin-top: 5rem;
+        width: 28rem;
+    }
+
+    .botao {
+        width: 30rem;
+        margin-left: 3.25rem;
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width: 414px) {
+    *{
+        font-size: 12px;
+    }
+
+    
+    .texto-digitado input {
+        width: 25rem;
+        margin-left: 2rem;
+    }
+
+    .botao button {
+        margin-left: 1rem;
+        width: 15rem;
+    }
+
+    .texto-saida {
+        margin-top: 5rem;
+        width: 28rem;
+    }
+
+    .botao {
+        width: 30rem;
+        margin-left: 0.25rem;
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width: 395px) {
+
+    .texto-digitado input {
+        width: 23rem;
+        margin-left: 1.25rem;
+    }
+
+    .botao button {
+        margin-left: 1rem;
+        width: 13rem;
+    }
+
+    .texto-saida {
+        margin-top: 5rem;
+        width: 25rem;
+    }
+
+    .botao {
+        width: 30rem;
+        margin-left: 0.25rem;
+        margin-top: 25rem;
+    }
+}
